@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>multi step form</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form action="">
+                <div class="step step-1 active">
+                    <div class="form_group">
+                        <label for="first_name">First name</label>
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+                    <div class="form_group">
+                        <label for="last_name">Last name</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                    <div class="form_group">
+                        <label for="nick">Last name</label>
+                        <input type="text" name="nick" id="nick_name">
+                    </div>
+                    <button type="button"class="next_btn">Next</button>
+                </div>
+                <div class="step step-2 ">
+                    <div class="form_group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form_group">
+                        <label for="phone">Mobile number</label>
+                        <input type="tel" name="phone" id="phone_number">
+                    </div>
+                    <button type="button" class="previous_btn">Back</button>
+                    <button type="button"class="next_btn">Next</button>
+                </div>
+                <div class="step step-3">
+                    <div class="form_group">
+                        <label for="country">Country</label>
+                        <input type="text" name="country" id="country">
+                    </div>
+                    <div class="form_group">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <button type="button" class="previous_btn">Back</button>
+                    <button type="submit" class="submit_btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
